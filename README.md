@@ -18,3 +18,8 @@ Output:
 
 To Exit the Script:
   1. Press Ctrl+C on your keyboard to stop the monitoring and exit the script.
+
+Added Feature:
+  1. Configurations are same in both the code but in log-monitor-withEmail.py we have added a feature to email.
+  2. Emails are sent based on the critical_keywords configured.
+  3. We have to configure the sender and receiver email address.
