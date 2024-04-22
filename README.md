@@ -5,6 +5,9 @@ List of Configuration to be updated:
   2. Keywords: Modify the keywords list to include specific keywords or patterns you want to track within the log entries (e.g., "error", "warning").
   3. Summary Interval: Adjust the summary_interval variable to change how often a summary report is generated (measured in seconds).
 
+  For second file with Email Configuartion:
+  1. We have to configure the sender and receiver email address, critical_keyword.
+
 Steps to Run the Script:
   1. Save the script as log-monitor.py.
   2. Open a terminal and navigate to the directory containing the script.
@@ -22,4 +25,4 @@ To Exit the Script:
 Added Feature:
   1. Configurations are same in both the code but in log-monitor-withEmail.py we have added a feature to email.
   2. Emails are sent based on the critical_keywords configured.
-  3. We have to configure the sender and receiver email address.
+
